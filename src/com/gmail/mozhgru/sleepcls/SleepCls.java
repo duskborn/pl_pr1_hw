@@ -33,10 +33,6 @@ public class SleepCls {
         System.out.println(sleepIn(weekday, vacation));
     }
     public static boolean sleepIn(boolean weekday, boolean vacation) {
-        if( weekday == true && vacation == false ) {
-            return false;
-        } else {
-            return true;
-        }
+        return !weekday || vacation;
     }
 }
