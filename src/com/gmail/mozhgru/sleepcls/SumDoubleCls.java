@@ -19,8 +19,8 @@ public class SumDoubleCls {
     }
 
     public static int sumDouble(int a, int b) {
-        if (a!=b) {
-        return a+b;
-        } else return (a+b)*2;
+        sum = a+b;
+        if (a==b) sum*=2;        
+        return sum;
     }
 }
