@@ -19,7 +19,7 @@ public class SumDoubleCls {
     }
 
     public static int sumDouble(int a, int b) {
-        sum = a+b;
+        int sum = a+b;
         if (a==b) sum*=2;        
         return sum;
     }
